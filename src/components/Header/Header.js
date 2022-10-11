@@ -9,13 +9,15 @@ const Header = () => {
              <img className='w-28 h-28 rounded-full  ml-10' src={Logo}/>
            </div>
            
-           <div className='flex items-center italic font-bold text-2xl text-slate-200'>
+          <div className='flex items-center'>
+          <div className='italic font-bold text-2xl text-slate-200'>
             <h2 className='font-serif'>LET'S Play.. </h2>
         
              <h2>You can test your web development skills with us.
              There is no time limit !!
              </h2>
            </div>
+          </div>
           
         </div>
     );
