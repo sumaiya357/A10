@@ -3,7 +3,7 @@
  
  const NavBar = () => {
     return (
-        <div className='text-pink-600 m-8  flex flex-row justify-between  md:flex-row'>
+        <div className='text-pink-600 mx-20 mt-10 mb-10  flex flex-row justify-between  md:flex-row'>
             <div>
               <h3 className='text-2xl font-bold'> Takin' a Quiz</h3>
             </div>
