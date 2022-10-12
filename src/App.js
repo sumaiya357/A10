@@ -39,12 +39,17 @@ function App() {
           },
           element:<ReQuiz></ReQuiz>
         },
+        {
+          path:'/statistics',
+          
+          element:<Statistics></Statistics>
+        }
     
       ]
      },
    
     {
-      path:'*',
+      path:'/*',
       element: <h2 className='font-extrabold text-5xl text-center mt-40'>This page Not Available 4O4</h2>
     }
     
