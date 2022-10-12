@@ -14,13 +14,13 @@ const Questions = ({quiz}) => {
     const options= quiz.options;
     // console.log(options)
 
+
+    //--------// SHOW CORRECT ANSWER BY TOAST //-----
+
     const notify =() =>{
         toast(`correct ans: ${correctAnswer}`)
     }
 
-    // const handleIcon = (correctAnswer)=>{
-    //     console.log('correct ans: ', correctAnswer)
-    // }
     return (
 
        <div  className='border-4 border-slate-200 mt-20 mx-56 pb-10 rounded-2xl  shadow-lg shadow-indigo-500/50
@@ -33,7 +33,9 @@ const Questions = ({quiz}) => {
            <h2 className='text-2xl '><span className='font-extrabold'>Ques:</span>{quiz.question}</h2>
            </div>
 
+
            {/* ----ICON ----*/}
+
            <div className=''>
             
                <button onClick={notify}>
