@@ -17,11 +17,11 @@ const ReQuiz = () => {
         <div>
     
     {/* border-4 border-indigo-600  */}
-           <div >
-           <h2 className='text-2xl text-center mt-24 mb-10 font-serif text-violet-700'>{allQuiz.name} Quiz Test </h2>
+           <div className='bg-slate-200 w-5/6 ml-20 h-24 ' >
+           <h2 className='text-2xl text-center pt-8 mb-10 font-serif text-violet-700'>{allQuiz.name} Quiz Test </h2>
            </div>
 
-            <div className='font-mono border-4 border-indigo-600 text-center'>
+            <div className='font-mono  text-center'>
                 {
                     allQuiz2.map(quiz=>
                     <Questions
