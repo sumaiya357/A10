@@ -18,7 +18,7 @@ const Questions = ({quiz}) => {
     //--------// SHOW CORRECT ANSWER BY TOAST //-----
 
     const notify =() =>{
-        toast(`correct ans: ${correctAnswer}`)
+        toast(`Correct Ans: ${correctAnswer}`)
     }
 
     return (
@@ -48,9 +48,12 @@ const Questions = ({quiz}) => {
         <div className=' m-5 grid grid-cols-1 md:grid-cols-4 gap-4'>
                {
                 options.map((option)=> 
-               <Options option={option}>
-
-               </Options>)
+                
+               <Options option={option}
+               correctAnswer={correctAnswer}
+          >
+               </Options>
+               )
                }
         </div>
       
