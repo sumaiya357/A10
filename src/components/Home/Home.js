@@ -17,7 +17,7 @@ const Home = () => {
     return (
         <div >
             <Header></Header>
-         
+            
           <div className="grid grid-cols-1 md:grid-cols-1 lg:grid-cols-2 justify-items-center ml-56 " >
           {
             data.map(topic => 
