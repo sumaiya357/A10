@@ -1,7 +1,11 @@
 # Project Title: 
    Takin' a Quiz
 
+# Feature
+*Its a Online quiz 
+*You can text your web development skills by playing the quiz
 
+# Live Site:
 
 
 # Getting Started with Create React App
